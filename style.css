@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300&family=Noto+Sans:wght@900&display=swap');
+
+
+html, body{
+    font-family: sans-serif;
+    background-color: beige;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    line-height: 0.5;
+
+}
+
+.established {
+    font-style: italic;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+h1, h2, .price {
+    font-family: 'Noto Sans', sans-serif;;
+}
+
+hr {
+    height: 7px;
+    background-color: #DE2431;
+    border-width: 0;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.items {
+    margin: 25px;
+}
+
+.menu{
+    width: 60%;
+    background-color: #FCB912;
+    color: #DE2431;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    font-family: 'Heebo', sans-serif;
+}
+
+.burger, .fries, .drinks {
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 0;
+}
+
+.item {
+    width: 80%;
+    display: inline-block;
+    text-align: left;
+}
+.price {
+    width: 20%;
+    display: inline-block;
+    text-align: right;
+}
+
+a {
+    color: #DE2431;
+}
+
+footer {
+    width: 60%;
+    padding: 20px;
+    margin: 20px auto;
+    background-color: #FCB912;
+    text-align: center;
+    
+}
